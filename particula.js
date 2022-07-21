@@ -26,12 +26,12 @@ function Particula () {
     }
 
     this.mostra = function () {
-        stroke(this.cor,255,255, 15);
-        this.cor = this.cor + 1;
+        stroke(this.cor,255,255, 35);
+        this.cor = this.cor + 0.1;
         if(this.cor > 255){
-            this.cor =0;
+            this.cor = 0;
         }
-        strokeWeight(3)
+        strokeWeight(1)
         point(this.posi.x, this.posi.y)
     }
     
