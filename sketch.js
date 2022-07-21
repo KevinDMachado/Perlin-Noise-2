@@ -9,7 +9,7 @@ let campo;
 function setup() {
   background(255);
   colorMode(HSB, 255)
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
   colunas = floor(width/escala);
   linhas = floor(height/escala);
   
